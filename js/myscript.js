@@ -10,15 +10,19 @@
 
 for (let i = 1; i < 101; i ++){
 
-   console.log(i)
+   
 
    const rest3 = i % 3
    const rest5 = i % 5
 
+   
+
    if (rest3 === 0){
-    console.log("buzz")
-   } else if (rest5 === 0) {
     console.log("fizz")
+   } else if (rest5 === 0) {
+    console.log("buzz")
+   } else {
+    console.log(i)
    }
   
    
