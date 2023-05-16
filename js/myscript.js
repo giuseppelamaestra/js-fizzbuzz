@@ -21,7 +21,12 @@ for (let i = 1; i < 101; i ++){
     console.log("fizz")
    } else if (rest5 === 0) {
     console.log("buzz")
-   } else {
+   } else if (rest3 === 0 || rest5 === 0) {
+          
+      console.log("FizzBuzz")
+
+   }
+    else {
     console.log(i)
    }
   
